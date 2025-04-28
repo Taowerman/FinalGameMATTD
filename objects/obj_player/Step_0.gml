@@ -134,8 +134,9 @@ move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "2"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "collision_tilemap_death_zone"
-var l600D05D4_0 = instance_place(x + 0, y + 2, [collision_tilemap_death_zone]);
+/// @DnDArgument : "object" "obj_death"
+/// @DnDSaveInfo : "object" "obj_death"
+var l600D05D4_0 = instance_place(x + 0, y + 2, [obj_death]);
 if ((l600D05D4_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Rooms.Restart_Room
